@@ -14,3 +14,11 @@ main{
     margin: auto;
     padding: 40px;
 }
+.Input2{
+    grid-column: span 2;
+	height: 90px;
+}
+.Input3{
+    grid-column: span 2;
+	height: 90px;
+}

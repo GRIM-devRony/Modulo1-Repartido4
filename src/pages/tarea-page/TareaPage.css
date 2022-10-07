@@ -60,6 +60,9 @@
   font-size: 22px;
   color: #333;
 }
+.task.completed{
+  text-decoration: line-through;
+}
 
 .task.prio-1 {
   background-color: #e9e7e7;

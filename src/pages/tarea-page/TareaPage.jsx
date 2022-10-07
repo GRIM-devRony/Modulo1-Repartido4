@@ -56,7 +56,12 @@ const TareaPage = () => {
         </div>
         <div className="tarea__tasks-ctn">
           {tasks.map((task, i) => (
-            <div key={i} className={`task prio-${task.prio}`}>
+            <div
+              key={i}
+              className={`task prio-${task.prio} ${
+                task.completed ? "completed" : ""
+              }`}
+            >
               {task.name}
               <div className="task__buttons-ctn">
                 <button
