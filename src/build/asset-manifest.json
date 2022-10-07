@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "./static/css/main.34d17cb0.css",
+    "main.js": "./static/js/main.e44e2f0d.js",
+    "static/media/tick-verde.png": "./static/media/tick-verde.8196d650e8b7ae6faef0.png",
+    "index.html": "./index.html",
+    "main.34d17cb0.css.map": "./static/css/main.34d17cb0.css.map",
+    "main.e44e2f0d.js.map": "./static/js/main.e44e2f0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34d17cb0.css",
+    "static/js/main.e44e2f0d.js"
+  ]
+}
