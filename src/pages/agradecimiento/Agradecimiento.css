@@ -1,0 +1,28 @@
+body:has(.agradecimiento__ctn){
+  background-color: #fff;
+}
+.agradecimiento__ctn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.agradecimiento__img {
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.agradecimiento__ctn h2 {
+  font-size: 30px;
+}
+.agradecimiento__ctn p {
+  font-size: 22px;
+}
+
+.agradecimiento__link {
+  margin-top: 20px;
+  color: #344bc9;
+  font-size: 17px;
+}

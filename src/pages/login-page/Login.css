@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+.formulario__login{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #111333;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+.formulario__login:hover{
+    box-shadow: 0px 0px 46px 6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 46px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 46px 6px rgba(0,0,0,0.75);
+    transition: 1.5s;
+}
+#formulario h2 {
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    color: white;
+    letter-spacing: 5px;
+}
+   
+#formulario h2:hover{
+    
+text-decoration: underline;
+transition: 0.5s;
+letter-spacing: 8px;
+}
+
+
+#formulario{
+  display: flex;
+  flex-direction: column;
+ width: 80%;
+  align-items: center;
+}
+#check{
+display: flex;
+width: 100%;
+flex-direction: row;
+align-items: center;
+color: white;
+}
+
+
+#formulario input[type="text"], #formulario input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+}
+#formulario input[type="text"]:focus, #formulario input[type="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+
+
+.login-button{
+    border: 0;
+    background: none;
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 10px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer; 
+    transition: width .3s ease-in-out;
+}
+
+.login-button:hover{
+    background: #2ecc71;
+    width: 150px;
+    transition: 1s;
+    border-radius: 10px;
+}
